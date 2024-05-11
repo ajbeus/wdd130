@@ -1,0 +1,15 @@
+.logo-img{
+    width: 100px
+    }
+.first-menu a:link, .first-menu a:visited{
+    color:orange
+}
+#hero-banner{
+    width: 50%;
+    /* background-image: url('../images/adampicture.jpg'); */
+    /* Alt tag = this is an image of... */
+    height: 1000px;
+}
+#hero-image{
+    display: block;
+}
