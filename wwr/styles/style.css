@@ -92,6 +92,6 @@ footer a:hover{
     text-decoration: none;
     color: white
 }
-.join:hover{
+.join:hover, .book:hover{
     background-color: black
 }

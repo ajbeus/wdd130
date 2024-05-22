@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#circles{
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
+footer,img{
+    border: 50%;
+    border-color: black;
+}
+
+#desk{
+    border-radius: 500px / 500px;
+    margin: 3%;
+    border: 25px solid black;
+}
+
+#logo{
+    border-radius: 500px / 500px;
+    margin: 3%;
+    border: 25px solid black;
+}
+
+#person{
+    border-radius: 500px / 500px;
+    margin: 3%;
+    border: 25px solid black;
+}
