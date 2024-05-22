@@ -18,19 +18,22 @@ footer,img{
 }
 
 #desk{
+    width: 20%;
     border-radius: 500px / 500px;
     margin: 3%;
-    border: 25px solid black;
+    border: 15px solid black;
 }
 
 #logo{
+    width: 20%;
     border-radius: 500px / 500px;
     margin: 3%;
-    border: 25px solid black;
+    border: 15px solid black;
 }
 
 #person{
+    width: 20%;
     border-radius: 500px / 500px;
     margin: 3%;
-    border: 25px solid black;
+    border: 15px solid black;
 }
