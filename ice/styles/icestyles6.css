@@ -1,0 +1,61 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-rows: 50vh 50vh;
+}
+  
+.item1{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    
+}
+
+.item1 img {
+    max-width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
+.item2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 100vh;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: .8;
+}
+
+h1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    justify-self: center;
+    font-size: 14em;
+    margin: 0;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 10px;
+}
+
+.cherries {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 7em;
+    color: #a52a2a; /* dark red */
+    margin: 0;
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    letter-spacing: 15px;
+}
+
