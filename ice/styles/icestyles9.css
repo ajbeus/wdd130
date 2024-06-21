@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.card{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.cityimage{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.time{
+    text-align: center;
+    color: #3F5B8B;
+    margin-bottom: -20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: -20px;
+}
+.article{
+    padding: 10%;
+    text-align: center;
+}
+.grid-container{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3F5B8B;
+    border: 1px solid;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.item1{
+    grid-column: 1/2;
+    color: white;
+    border-right: 1px solid gray;
+    text-align: center;
+    margin-top: 10px;
+}
+.item2{
+    grid-column: 2/3;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.item3{
+    grid-column: 3/4;
+    color: white;
+    border-left: 1px solid gray;
+    text-align: center;
+    margin-top: 10px;
+}
