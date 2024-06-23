@@ -215,6 +215,9 @@ footer a:hover{
 main section img {
     box-sizing: border-box;
 }
+.home-title2{
+    font-size: 12em;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
